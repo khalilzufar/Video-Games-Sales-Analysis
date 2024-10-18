@@ -18,6 +18,11 @@ This project focuses on analyzing video game sales data to uncover trends and in
  - [Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/video-games-sales)
  - [Visualisasi Tableau](https://public.tableau.com/views/DataVisualizationVideoGameSales/VisualisasiData?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+## How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/khalilzufar/Video-Games-Sales-Analysis.git
+
 ## Author ✍️
 **Khalil Zufar**
 
