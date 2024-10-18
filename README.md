@@ -1,12 +1,12 @@
 # Video Game Sales Analysis 🎮
 
 ## Overview
-This project focuses on analyzing video game sales data to uncover trends and insights that can assist game developers, publishers, and other stakeholders in making informed decisions. The analysis includes data exploration, cleaning, visualization, and statistical analysis to provide actionable recommendations.
+This project analyzes video game sales data to identify trends and insights aimed at improving sales performance in underperforming regions and genres. The analysis includes data exploration, cleaning, visualization, and statistical analysis to develop actionable marketing strategies.
 
 ## Objectives
-- Understand the factors that influence video game sales across various regions.
-- Identify trends in sales based on genre, platform, and publisher.
-- Provide insights that can guide future game development and marketing strategies.
+- Understand the factors influencing video game sales across different regions and genres.
+- Identify the lowest-selling genres and platforms in specific regions.
+- Propose strategies to increase sales by 20% in regions with the lowest performance over six months.
 
 ## Technologies Used
 - Python
