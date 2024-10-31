@@ -37,7 +37,7 @@ Dengan menganalisis data penjualan, proyek ini berfokus pada pemahaman pola penj
    ```bash
    git clone https://github.com/khalilzufar/Video-Games-Sales-Analysis.git
 
-2. Navigasi ke Direktori Proyek: Ubah direktori kerja Anda ke repositori yang telah dikloning:
+2. Navigasi ke Direktori Proyek: Ubah direktori Anda ke repositori yang telah dikloning:
    ```bash
    cd Video-Games-Sales-Analysis
 
@@ -45,7 +45,7 @@ Dengan menganalisis data penjualan, proyek ini berfokus pada pemahaman pola penj
    ```bash
    jupyter notebook
    ```
-   Ini akan membuka antarmuka web di browser Anda.
+   Ini akan membuka web di browser Anda.
 
 4. Jalankan Notebook: Buka file notebook yang relevan (misalnya, video_game_sales_analysis.ipynb) dan ikuti instruksi untuk mengeksplorasi data dan menjalankan analisis.
 
