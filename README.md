@@ -1,55 +1,42 @@
-# Video Game Sales Analysis 🎮
+# Video Game Sales Analysis
 
-## Overview 🌟
-Proyek ini bertujuan untuk menganalisis data penjualan video game guna mengidentifikasi tren dan wawasan yang bertujuan meningkatkan kinerja penjualan di daerah dan genre yang kurang berprestasi. Analisis mencakup:
+A data-analysis project that explores video-game sales by platform, genre, year, and region.
 
-- 🧑‍💻 Eksplorasi Data
-- 🧹 Pembersihan Data
-- 📊 Visualisasi Data
-- 📈 Analisis Statistik
+## Objective
 
-Dengan menganalisis data penjualan, proyek ini berfokus pada pemahaman pola penjualan di berbagai wilayah dan genre, serta mengembangkan strategi pemasaran yang lebih efektif untuk meningkatkan penjualan.
+Identify regional sales patterns and use them to understand which platforms or genres perform well or underperform across North America, Europe, Japan, and other markets.
 
-## Objectives 🎯
-- Memahami faktor-faktor yang mempengaruhi penjualan video game di berbagai daerah dan genre.
-- Mengidentifikasi genre dan platform dengan penjualan terendah di wilayah tertentu.
-- Mengusulkan strategi untuk meningkatkan penjualan sebesar 20% di daerah dengan kinerja terendah dalam enam bulan.
+## Dataset
 
+The repository includes the original and cleaned CSV files:
 
-## Dependencies ⚙️
-- ![Python](https://github.com/user-attachments/assets/efbcb388-ef93-4ed9-b571-cd79647f8e59)
-- ![Jupyter Notebook](https://github.com/user-attachments/assets/34ef0fd4-6bdb-42f4-98a1-000efe2e47f1)
+- video_games_sales.csv — 16,598 records across 11 columns.
+- video_games_sales_cleaned.csv — data after removing rows with missing release years.
 
-## Libraries 📚
-- **Data Manipulation dan Visualisasi:** 
-  - Pandas 
-  - Matplotlib 
-  - Seaborn 
-- **Visualisasi Interaktif:** 
-  - Tableau 
+The regional sales fields are North America, Europe, Japan, and Other, measured in millions of units.
 
-## Related Project Links 🔗
- - [Dataset](https://www.kaggle.com/datasets/ulrikthygepedersen/video-games-sales)
- - [Visualisasi Tableau](https://public.tableau.com/views/DataVisualizationVideoGameSales/VisualisasiData?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## Analysis workflow
 
-## How to Use 🛠️
-1. **Clone repositori ini:**
-   ```bash
-   git clone https://github.com/khalilzufar/Video-Games-Sales-Analysis.git
+1. Inspect data types, missing values, and duplicate records.
+2. Clean the release-year field and export the cleaned dataset.
+3. Compare platform and genre sales by region.
+4. Analyze sales trends over time.
+5. Compare regional distributions with descriptive statistics.
+6. Test the difference between North American and European sales.
 
-2. Navigasi ke Direktori Proyek: Ubah direktori Anda ke repositori yang telah dikloning:
-   ```bash
-   cd Video-Games-Sales-Analysis
+## Outputs
 
-3. Buka Jupyter Notebook: Mulai Jupyter Notebook dengan perintah berikut:
-   ```bash
-   jupyter notebook
-   ```
-   Ini akan membuka web di browser Anda.
+- video_games_sales_analysis.ipynb — complete EDA and statistical analysis.
+- [Interactive Tableau visualization](https://public.tableau.com/views/DataVisualizationVideoGameSales/VisualisasiData?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Source dataset on Kaggle](https://www.kaggle.com/datasets/ulrikthygepedersen/video-games-sales)
 
-4. Jalankan Notebook: Buka file notebook yang relevan (misalnya, video_game_sales_analysis.ipynb) dan ikuti instruksi untuk mengeksplorasi data dan menjalankan analisis.
+## Run locally
 
-## Author ✍️
-**Khalil Zufar**
+~~~bash
+python -m pip install pandas numpy matplotlib seaborn scipy jupyter
+jupyter notebook video_games_sales_analysis.ipynb
+~~~
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/khalil-zufar/)
+## Author
+
+[Khalil Zufar](https://github.com/khalilzufar)
